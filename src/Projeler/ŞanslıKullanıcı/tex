@@ -1,0 +1,26 @@
+
+        TASK - >
+     Bu uygulama kulanÄ±cÄ±larÄ±n bir ArrayListe kayÄ±t zamanÄ±nÄ± da alarak
+     ekleyen ve sonrasÄ±nda her dakikanÄ±n ilk 10 saniyesinde kaydolanlarÄ±
+     ÅŸanslÄ± kullanÄ±cÄ± olarak ekrana yazdÄ±ran bir uygulamadÄ±r.
+     Bunun iÃ§in;
+     1- Bir user(KullanÄ±cÄ±) class oluÅŸturun fields: name , registerDate(kayÄ±tZamanÄ±) (data type->LocalDateTime )
+     2- Registration(KayÄ±t) isminde bir class oluÅŸturun ve register()(kayÄ±tAl()) isminde bir method
+     create ederek KullanÄ±cÄ± Class'dan user ismini(name) alarak ArrayList e ekleyin ve bu list i
+     return edin.
+     3- Registration(KayÄ±t) classÄ± na aynÄ± zamanda kendine verilen(parametre)
+     ArrayListteki userlardan(kullanÄ±cÄ± obj) her dakikanÄ±n ilk 10  saniyesinde kaydolanlarÄ±
+     yazdÄ±ran printHappyUsers(sanslÄ±KullanÄ±cÄ±) isminde bir metod create ediniz
+
+
+     Obj ile uyglamayÄ± run ediniz
+
+
+     Ä°pucu Ã‡alÄ±ÅŸacak main metodu aÅŸaÄŸÄ±daki gibi olmalÄ±dÄ±r.
+
+     public static void main(String[] args) {
+     KayÄ±t yeniKayÄ±t = new KayÄ±t();
+     ArrayList<KullanÄ±cÄ±> kisi = yeniKayÄ±t.kayÄ±tAl();
+      yeniKayÄ±t.sanslÄ±KullanÄ±cÄ±(kiÅŸi);
+     }
+

@@ -1,0 +1,10 @@
+public class DailyTasks01_13_ifStatment {
+    public static void main(String[] args) {
+        // Not: soruları çözerken else öğrenmedik kullanmayın
+        // Task 1: kişinin yaşını ekrandan okurun 40 ve üstü ise kemal yaştır yazdırın
+        // Task 2: Verilen bir sayının pozitif olup olmadığını kontrol edin
+        //      pozitif ise ekrana "sayı xx pozitiftir diye yazdırın
+        // Task 32: verilen bir sayı 0 dan püyükse poztiftir yazdırın
+        //      sıfırdan küçükse nehatiftir yazdırın, sıfırsa bişey yapmayın
+
+

@@ -1,0 +1,22 @@
+package J12_Arrays.Tasks;
+
+import java.util.Arrays;
+
+public class Task_07_array_max_value {
+    public static void main(String[] args) {
+
+ /*
+            int Array oluşturun ve elemanları : 12,2,5,15,8
+            En büyük değeri yazdırınız.
+         */
+
+        // code start here
+
+        int sayiArr[]= {12,2,5,15,8};
+
+        Arrays.sort(sayiArr);
+        System.out.println("en büyük sayı = " + sayiArr[sayiArr.length - 1]);
+
+
+    }
+}
